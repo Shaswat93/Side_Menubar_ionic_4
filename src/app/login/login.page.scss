@@ -1,0 +1,32 @@
+app-login {
+    $white-color: #fff;
+    $Sheight100: 100%;    
+}
+
+ion-grid {
+    width:100%;
+    height: height100;
+    background: #dfdfdf;
+}
+
+ion-row {
+    height: 100px;
+}
+
+ion-col {
+    border: 1px solid #488aff;
+    background: white-color;
+}
+
+ion-button {
+    font-weight: 300;
+}
+
+@media (min-width: 240px) and (max-width: 768px) {
+    ion-grid {
+        background: white-color;
+    }
+    ion-col {
+        border: none;
+    }
+}
